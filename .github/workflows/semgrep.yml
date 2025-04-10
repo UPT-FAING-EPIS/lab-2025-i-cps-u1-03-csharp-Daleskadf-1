@@ -23,12 +23,6 @@ jobs:
         run: |
           semgrep scan --config='p/default' . --json --output semgrep.json
 
-      # Paso para filtrar los hallazgos sin el campo 'confidence'
-      - name: Filter semgrep results for confidence
-        run: |
-          jq '.results |= map(select(.extra.confidence != null))' semgrep.json > filtered_semgrep.json
-          mv filtered_semgrep.json semgrep.json  # Reemplazar el archivo original
-
       - name: Generate HTML report with Prospector
         run: |
           prospector-html --input semgrep.json --output index.html --filter semgrep

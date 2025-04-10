@@ -1,14 +1,6 @@
 {
   "errors": [
     {
-      "code": 2,
-      "level": "warn",
-      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py:\n ",
-      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py",
-      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
-      "type": "Timeout"
-    },
-    {
       "code": 3,
       "level": "warn",
       "message": "Syntax error at line Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py:47:\n `*` was unexpected",
@@ -102,10 +94,244 @@
     {
       "code": 2,
       "level": "warn",
-      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py:\n ",
-      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py",
+      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py:\n ",
+      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py",
       "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
       "type": "Timeout"
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:28:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ secrets.SONAR_TOKEN` was unexpected",
+      "path": ".github/workflows/package_nuget.yml",
+      "spans": [
+        {
+          "end": {
+            "col": 42,
+            "line": 28,
+            "offset": 838
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 21,
+            "line": 28,
+            "offset": 817
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 42,
+              "line": 28,
+              "offset": 838
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 21,
+              "line": 28,
+              "offset": 817
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:41:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ secrets.SONAR_TOKEN` was unexpected",
+      "path": ".github/workflows/package_nuget.yml",
+      "spans": [
+        {
+          "end": {
+            "col": 75,
+            "line": 41,
+            "offset": 1532
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 54,
+            "line": 41,
+            "offset": 1511
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 75,
+              "line": 41,
+              "offset": 1532
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 54,
+              "line": 41,
+              "offset": 1511
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:44:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_PROJECT` was unexpected",
+      "path": ".github/workflows/package_nuget.yml",
+      "spans": [
+        {
+          "end": {
+            "col": 52,
+            "line": 44,
+            "offset": 1642
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 33,
+            "line": 44,
+            "offset": 1623
+          }
+        },
+        {
+          "end": {
+            "col": 77,
+            "line": 44,
+            "offset": 1642
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 58,
+            "line": 44,
+            "offset": 1623
+          }
+        },
+        {
+          "end": {
+            "col": 15,
+            "line": 46,
+            "offset": 1626
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 12,
+            "line": 46,
+            "offset": 1623
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 52,
+              "line": 44,
+              "offset": 1642
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 33,
+              "line": 44,
+              "offset": 1623
+            }
+          },
+          {
+            "end": {
+              "col": 77,
+              "line": 44,
+              "offset": 1642
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 58,
+              "line": 44,
+              "offset": 1623
+            }
+          },
+          {
+            "end": {
+              "col": 15,
+              "line": 46,
+              "offset": 1626
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 12,
+              "line": 46,
+              "offset": 1623
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:49:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_OUTPUT_DIR` was unexpected",
+      "path": ".github/workflows/package_nuget.yml",
+      "spans": [
+        {
+          "end": {
+            "col": 56,
+            "line": 49,
+            "offset": 1880
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 34,
+            "line": 49,
+            "offset": 1858
+          }
+        },
+        {
+          "end": {
+            "col": 40,
+            "line": 51,
+            "offset": 1882
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 16,
+            "line": 51,
+            "offset": 1858
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 56,
+              "line": 49,
+              "offset": 1880
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 34,
+              "line": 49,
+              "offset": 1858
+            }
+          },
+          {
+            "end": {
+              "col": 40,
+              "line": 51,
+              "offset": 1882
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 16,
+              "line": 51,
+              "offset": 1858
+            }
+          }
+        ]
+      ]
     },
     {
       "code": 2,
@@ -114,12 +340,21 @@
       "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/idna/uts46data.py",
       "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
       "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py:\n ",
+      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py",
+      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
+      "type": "Timeout"
     }
   ],
   "interfile_languages_used": [],
   "paths": {
     "scanned": [
       ".github/workflows/classroom.yml",
+      ".github/workflows/package_nuget.yml",
       ".github/workflows/publish_docs.yml",
       ".github/workflows/release_version.yml",
       ".github/workflows/semgrep.yml",
@@ -1601,6 +1836,10 @@
       "disenio.md"
     ],
     "skipped": [
+      {
+        "path": ".github/workflows/package_nuget.yml",
+        "reason": "analysis_failed_parser_or_internal_error"
+      },
       {
         "path": "Bank/_site/public/blockDiagram-91b80b7a-U6UNE6YF.min.js",
         "reason": "semgrepignore_patterns_match"

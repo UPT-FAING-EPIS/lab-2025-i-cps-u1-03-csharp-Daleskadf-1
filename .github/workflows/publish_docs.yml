@@ -27,4 +27,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: Bank/_site
-          target_branch: gh-pages-docs  # Cambié el nombre de la rama a gh-pages-docs
+          publish_branch: gh-pages-docs  # Cambié el nombre de la rama a gh-pages-docs

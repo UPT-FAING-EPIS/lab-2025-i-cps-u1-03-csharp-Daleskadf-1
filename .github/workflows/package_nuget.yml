@@ -48,6 +48,14 @@ jobs:
           --configuration Release \
           --output ${{ env.NUGET_OUTPUT_DIR }}
 
+      # Paso 9: Verificar si el directorio nupkg existe
+    - name: Check if nupkg directory exists
+      run: |
+        if [ ! -d "${{ env.NUGET_OUTPUT_DIR }}" ]; then
+          echo "El directorio nupkg no existe. Creando..."
+          mkdir -p "${{ env.NUGET_OUTPUT_DIR }}"
+        fi
+
     - name: Publish NuGet package to GitHub Packages
       run: | 
         dotnet nuget push "${{ env.NUGET_OUTPUT_DIR }}/*.nupkg" \

@@ -44,7 +44,7 @@ jobs:
 
     - name: Build and Pack
       run: |
-        cd Bank/WebApi  # Entra al directorio del proyecto
+        cd Bank/Bank.WebApi  # Entra al directorio del proyecto
         ls -R  # Verifica que los archivos existen
         dotnet build Bank.WebApi.csproj --configuration Release
         dotnet pack Bank.WebApi.csproj --configuration Release --output ./nupkg

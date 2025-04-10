@@ -121,6 +121,7 @@
     "scanned": [
       ".github/workflows/classroom.yml",
       ".github/workflows/publish_docs.yml",
+      ".github/workflows/release_version.yml",
       ".github/workflows/semgrep.yml",
       ".gitignore",
       "Bank/Bank.WebApi/Bank.WebApi.csproj",

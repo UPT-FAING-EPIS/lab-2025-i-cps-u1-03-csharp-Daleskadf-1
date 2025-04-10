@@ -3,6 +3,14 @@
     {
       "code": 2,
       "level": "warn",
+      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py:\n ",
+      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py",
+      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
       "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py:\n ",
       "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py",
       "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
@@ -98,14 +106,6 @@
           }
         ]
       ]
-    },
-    {
-      "code": 2,
-      "level": "warn",
-      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py:\n ",
-      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py",
-      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
-      "type": "Timeout"
     },
     {
       "code": 2,

@@ -42,11 +42,13 @@ jobs:
     - name: Build solution
       run: dotnet build "Bank/Bank.sln" --no-restore --configuration Release
 
-    - name: Pack NuGet package
+    - name: Build and Pack
       run: |
-        dotnet pack "Bank/${{ env.NUGET_PROJECT }}/${{ env.NUGET_PROJECT }}.csproj" \
-          --configuration Release \
-          --output ${{ env.NUGET_OUTPUT_DIR }}
+        cd Bank/WebApi  # Entra al directorio del proyecto
+        ls -R  # Verifica que los archivos existen
+        dotnet build Bank.WebApi.csproj --configuration Release
+        dotnet pack Bank.WebApi.csproj --configuration Release --output ./nupkg
+        ls -R ./nupkg  # Verifica que el paquete .nupkg fue generado
 
       # Paso 9: Verificar si el directorio nupkg existe
     - name: Check if nupkg directory exists
@@ -60,7 +62,7 @@ jobs:
       env:
           GH_NUGET_TOKEN: ${{ secrets.GH_NUGET_TOKEN }}
       run: |
-          dotnet nuget push Bank/Bank.Domain/nupkg/*.nupkg \
+          dotnet nuget push Bank/Bank.WebApi/nupkg/*.nupkg \
             --source "https://nuget.pkg.github.com/Daleskadf/index.json" \
             --api-key "$GH_NUGET_TOKEN" \
             --skip-duplicate

@@ -9,217 +9,6 @@
       "type": "Timeout"
     },
     {
-      "code": 2,
-      "level": "warn",
-      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py:\n ",
-      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py",
-      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
-      "type": "Timeout"
-    },
-    {
-      "code": 2,
-      "level": "warn",
-      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/idna/uts46data.py:\n ",
-      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/idna/uts46data.py",
-      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
-      "type": "Timeout"
-    },
-    {
-      "code": 3,
-      "level": "warn",
-      "message": "Syntax error at line .github/workflows/package_nuget.yml:30:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ secrets.SONAR_TOKEN` was unexpected",
-      "path": ".github/workflows/package_nuget.yml",
-      "spans": [
-        {
-          "end": {
-            "col": 42,
-            "line": 30,
-            "offset": 840
-          },
-          "file": ".github/workflows/package_nuget.yml",
-          "start": {
-            "col": 21,
-            "line": 30,
-            "offset": 819
-          }
-        }
-      ],
-      "type": [
-        "PartialParsing",
-        [
-          {
-            "end": {
-              "col": 42,
-              "line": 30,
-              "offset": 840
-            },
-            "path": ".github/workflows/package_nuget.yml",
-            "start": {
-              "col": 21,
-              "line": 30,
-              "offset": 819
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "code": 3,
-      "level": "warn",
-      "message": "Syntax error at line .github/workflows/package_nuget.yml:47:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_PROJECT` was unexpected",
-      "path": ".github/workflows/package_nuget.yml",
-      "spans": [
-        {
-          "end": {
-            "col": 52,
-            "line": 47,
-            "offset": 1684
-          },
-          "file": ".github/workflows/package_nuget.yml",
-          "start": {
-            "col": 33,
-            "line": 47,
-            "offset": 1665
-          }
-        },
-        {
-          "end": {
-            "col": 77,
-            "line": 47,
-            "offset": 1684
-          },
-          "file": ".github/workflows/package_nuget.yml",
-          "start": {
-            "col": 58,
-            "line": 47,
-            "offset": 1665
-          }
-        },
-        {
-          "end": {
-            "col": 15,
-            "line": 49,
-            "offset": 1668
-          },
-          "file": ".github/workflows/package_nuget.yml",
-          "start": {
-            "col": 12,
-            "line": 49,
-            "offset": 1665
-          }
-        }
-      ],
-      "type": [
-        "PartialParsing",
-        [
-          {
-            "end": {
-              "col": 52,
-              "line": 47,
-              "offset": 1684
-            },
-            "path": ".github/workflows/package_nuget.yml",
-            "start": {
-              "col": 33,
-              "line": 47,
-              "offset": 1665
-            }
-          },
-          {
-            "end": {
-              "col": 77,
-              "line": 47,
-              "offset": 1684
-            },
-            "path": ".github/workflows/package_nuget.yml",
-            "start": {
-              "col": 58,
-              "line": 47,
-              "offset": 1665
-            }
-          },
-          {
-            "end": {
-              "col": 15,
-              "line": 49,
-              "offset": 1668
-            },
-            "path": ".github/workflows/package_nuget.yml",
-            "start": {
-              "col": 12,
-              "line": 49,
-              "offset": 1665
-            }
-          }
-        ]
-      ]
-    },
-    {
-      "code": 3,
-      "level": "warn",
-      "message": "Syntax error at line .github/workflows/package_nuget.yml:52:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_OUTPUT_DIR` was unexpected",
-      "path": ".github/workflows/package_nuget.yml",
-      "spans": [
-        {
-          "end": {
-            "col": 56,
-            "line": 52,
-            "offset": 1922
-          },
-          "file": ".github/workflows/package_nuget.yml",
-          "start": {
-            "col": 34,
-            "line": 52,
-            "offset": 1900
-          }
-        },
-        {
-          "end": {
-            "col": 40,
-            "line": 54,
-            "offset": 1924
-          },
-          "file": ".github/workflows/package_nuget.yml",
-          "start": {
-            "col": 16,
-            "line": 54,
-            "offset": 1900
-          }
-        }
-      ],
-      "type": [
-        "PartialParsing",
-        [
-          {
-            "end": {
-              "col": 56,
-              "line": 52,
-              "offset": 1922
-            },
-            "path": ".github/workflows/package_nuget.yml",
-            "start": {
-              "col": 34,
-              "line": 52,
-              "offset": 1900
-            }
-          },
-          {
-            "end": {
-              "col": 40,
-              "line": 54,
-              "offset": 1924
-            },
-            "path": ".github/workflows/package_nuget.yml",
-            "start": {
-              "col": 16,
-              "line": 54,
-              "offset": 1900
-            }
-          }
-        ]
-      ]
-    },
-    {
       "code": 3,
       "level": "warn",
       "message": "Syntax error at line Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py:47:\n `*` was unexpected",
@@ -305,6 +94,217 @@
               "col": 59,
               "line": 69,
               "offset": 0
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py:\n ",
+      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py",
+      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/idna/uts46data.py:\n ",
+      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/idna/uts46data.py",
+      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
+      "type": "Timeout"
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:30:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ secrets.SONAR_TOKEN` was unexpected",
+      "path": ".github/workflows/package_nuget.yml",
+      "spans": [
+        {
+          "end": {
+            "col": 42,
+            "line": 30,
+            "offset": 840
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 21,
+            "line": 30,
+            "offset": 819
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 42,
+              "line": 30,
+              "offset": 840
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 21,
+              "line": 30,
+              "offset": 819
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:47:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_PROJECT` was unexpected",
+      "path": ".github/workflows/package_nuget.yml",
+      "spans": [
+        {
+          "end": {
+            "col": 52,
+            "line": 47,
+            "offset": 1687
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 33,
+            "line": 47,
+            "offset": 1668
+          }
+        },
+        {
+          "end": {
+            "col": 77,
+            "line": 47,
+            "offset": 1687
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 58,
+            "line": 47,
+            "offset": 1668
+          }
+        },
+        {
+          "end": {
+            "col": 15,
+            "line": 49,
+            "offset": 1671
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 12,
+            "line": 49,
+            "offset": 1668
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 52,
+              "line": 47,
+              "offset": 1687
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 33,
+              "line": 47,
+              "offset": 1668
+            }
+          },
+          {
+            "end": {
+              "col": 77,
+              "line": 47,
+              "offset": 1687
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 58,
+              "line": 47,
+              "offset": 1668
+            }
+          },
+          {
+            "end": {
+              "col": 15,
+              "line": 49,
+              "offset": 1671
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 12,
+              "line": 49,
+              "offset": 1668
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:52:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_OUTPUT_DIR` was unexpected",
+      "path": ".github/workflows/package_nuget.yml",
+      "spans": [
+        {
+          "end": {
+            "col": 56,
+            "line": 52,
+            "offset": 1925
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 34,
+            "line": 52,
+            "offset": 1903
+          }
+        },
+        {
+          "end": {
+            "col": 40,
+            "line": 54,
+            "offset": 1927
+          },
+          "file": ".github/workflows/package_nuget.yml",
+          "start": {
+            "col": 16,
+            "line": 54,
+            "offset": 1903
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 56,
+              "line": 52,
+              "offset": 1925
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 34,
+              "line": 52,
+              "offset": 1903
+            }
+          },
+          {
+            "end": {
+              "col": 40,
+              "line": 54,
+              "offset": 1927
+            },
+            "path": ".github/workflows/package_nuget.yml",
+            "start": {
+              "col": 16,
+              "line": 54,
+              "offset": 1903
             }
           }
         ]

@@ -19,11 +19,6 @@ jobs:
           pip install semgrep  # Instalar Semgrep
           pip install prospector2html  # Instalar Prospector
 
-      # 4. Verificar si prospector-html está disponible
-      - name: Verify prospector-html installation
-        run: |
-          prospector-html --version  # Verificar que el comando prospector-html esté disponible
-
       - name: Run Semgrep scan
         run: |
           semgrep scan --config='p/default' . --json --output semgrep.json  # Ejecutar Semgrep y generar el archivo JSON

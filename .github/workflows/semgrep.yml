@@ -16,7 +16,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install semgrep  # Instalar Semgrep
+          pip install semgrep==1.56.0 # Instalar Semgrep
           pip install prospector2html  # Instalar Prospector
 
       - name: Run Semgrep scan

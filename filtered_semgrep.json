@@ -50,20 +50,20 @@
     {
       "code": 3,
       "level": "warn",
-      "message": "Syntax error at line .github/workflows/package_nuget.yml:44:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ secrets.SONAR_TOKEN` was unexpected",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:45:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ secrets.SONAR_TOKEN` was unexpected",
       "path": ".github/workflows/package_nuget.yml",
       "spans": [
         {
           "end": {
             "col": 76,
-            "line": 44,
-            "offset": 1591
+            "line": 45,
+            "offset": 1598
           },
           "file": ".github/workflows/package_nuget.yml",
           "start": {
             "col": 55,
-            "line": 44,
-            "offset": 1570
+            "line": 45,
+            "offset": 1577
           }
         }
       ],
@@ -73,14 +73,14 @@
           {
             "end": {
               "col": 76,
-              "line": 44,
-              "offset": 1591
+              "line": 45,
+              "offset": 1598
             },
             "path": ".github/workflows/package_nuget.yml",
             "start": {
               "col": 55,
-              "line": 44,
-              "offset": 1570
+              "line": 45,
+              "offset": 1577
             }
           }
         ]
@@ -89,46 +89,46 @@
     {
       "code": 3,
       "level": "warn",
-      "message": "Syntax error at line .github/workflows/package_nuget.yml:47:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_PROJECT` was unexpected",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:48:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_PROJECT` was unexpected",
       "path": ".github/workflows/package_nuget.yml",
       "spans": [
         {
           "end": {
             "col": 52,
-            "line": 47,
-            "offset": 1701
+            "line": 48,
+            "offset": 1708
           },
           "file": ".github/workflows/package_nuget.yml",
           "start": {
             "col": 33,
-            "line": 47,
-            "offset": 1682
+            "line": 48,
+            "offset": 1689
           }
         },
         {
           "end": {
             "col": 77,
-            "line": 47,
-            "offset": 1701
+            "line": 48,
+            "offset": 1708
           },
           "file": ".github/workflows/package_nuget.yml",
           "start": {
             "col": 58,
-            "line": 47,
-            "offset": 1682
+            "line": 48,
+            "offset": 1689
           }
         },
         {
           "end": {
             "col": 15,
-            "line": 49,
-            "offset": 1685
+            "line": 50,
+            "offset": 1692
           },
           "file": ".github/workflows/package_nuget.yml",
           "start": {
             "col": 12,
-            "line": 49,
-            "offset": 1682
+            "line": 50,
+            "offset": 1689
           }
         }
       ],
@@ -138,40 +138,40 @@
           {
             "end": {
               "col": 52,
-              "line": 47,
-              "offset": 1701
+              "line": 48,
+              "offset": 1708
             },
             "path": ".github/workflows/package_nuget.yml",
             "start": {
               "col": 33,
-              "line": 47,
-              "offset": 1682
+              "line": 48,
+              "offset": 1689
             }
           },
           {
             "end": {
               "col": 77,
-              "line": 47,
-              "offset": 1701
+              "line": 48,
+              "offset": 1708
             },
             "path": ".github/workflows/package_nuget.yml",
             "start": {
               "col": 58,
-              "line": 47,
-              "offset": 1682
+              "line": 48,
+              "offset": 1689
             }
           },
           {
             "end": {
               "col": 15,
-              "line": 49,
-              "offset": 1685
+              "line": 50,
+              "offset": 1692
             },
             "path": ".github/workflows/package_nuget.yml",
             "start": {
               "col": 12,
-              "line": 49,
-              "offset": 1682
+              "line": 50,
+              "offset": 1689
             }
           }
         ]
@@ -180,33 +180,33 @@
     {
       "code": 3,
       "level": "warn",
-      "message": "Syntax error at line .github/workflows/package_nuget.yml:52:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_OUTPUT_DIR` was unexpected",
+      "message": "Syntax error at line .github/workflows/package_nuget.yml:54:\n When parsing a snippet as Bash for metavariable-pattern in rule 'yaml.github-actions.security.curl-eval.curl-eval', `{ env.NUGET_OUTPUT_DIR` was unexpected",
       "path": ".github/workflows/package_nuget.yml",
       "spans": [
         {
           "end": {
             "col": 56,
-            "line": 52,
-            "offset": 1939
+            "line": 54,
+            "offset": 1947
           },
           "file": ".github/workflows/package_nuget.yml",
           "start": {
             "col": 34,
-            "line": 52,
-            "offset": 1917
+            "line": 54,
+            "offset": 1925
           }
         },
         {
           "end": {
             "col": 40,
-            "line": 54,
-            "offset": 1941
+            "line": 56,
+            "offset": 1949
           },
           "file": ".github/workflows/package_nuget.yml",
           "start": {
             "col": 16,
-            "line": 54,
-            "offset": 1917
+            "line": 56,
+            "offset": 1925
           }
         }
       ],
@@ -216,27 +216,27 @@
           {
             "end": {
               "col": 56,
-              "line": 52,
-              "offset": 1939
+              "line": 54,
+              "offset": 1947
             },
             "path": ".github/workflows/package_nuget.yml",
             "start": {
               "col": 34,
-              "line": 52,
-              "offset": 1917
+              "line": 54,
+              "offset": 1925
             }
           },
           {
             "end": {
               "col": 40,
-              "line": 54,
-              "offset": 1941
+              "line": 56,
+              "offset": 1949
             },
             "path": ".github/workflows/package_nuget.yml",
             "start": {
               "col": 16,
-              "line": 54,
-              "offset": 1917
+              "line": 56,
+              "offset": 1925
             }
           }
         ]

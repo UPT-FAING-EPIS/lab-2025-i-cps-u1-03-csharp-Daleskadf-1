@@ -19,8 +19,10 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
     - name: Install SonarScanner
       run: dotnet tool install -g dotnet-sonarscanner
+
     - name: Restore dependencies
       run: dotnet restore "Bank/Bank.sln"
+
     - name: Begin SonarCloud analysis
       run: |
         dotnet-sonarscanner begin \
@@ -28,6 +30,7 @@ jobs:
           /o:"lab3cali" \
           /d:sonar.token="${{ secrets.SONAR_TOKEN }}" \
           /d:sonar.host.url="https://sonarcloud.io" \
+          /d:sonar.sources="Bank/Bank.WebApi, Bank/Bank.WebApi.Tests
           /d:sonar.cs.opencover.reportsPaths="**/coverage.opencover.xml" \
           /d:sonar.qualitygate.wait=true \
           /d:sonar.exclusions="**/Program.cs,**/code-test-results.html"
@@ -38,7 +41,7 @@ jobs:
       run: dotnet build "Bank/Bank.sln" --no-restore --configuration Release
 
     - name: End SonarCloud analysis
-      run: dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+      run:  dotnet sonarscanner end /d:sonar.login="$SONAR_TOKEN"
 
     - name: Pack NuGet package
       run: |

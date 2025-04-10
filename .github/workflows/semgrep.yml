@@ -24,8 +24,8 @@ jobs:
         run: |
           semgrep scan --config='p/default' . --json --output semgrep.json --metrics=off --verbose
 
-          - name: Filter semgrep results (remove items without 'confidence')
-          run: |
+      - name: Filter semgrep results (remove items without 'confidence')
+        run: |
             jq 'del(.results[] | select(.confidence == null))' semgrep.json > filtered_semgrep.json
 
       - name: Generate HTML report with Prospector

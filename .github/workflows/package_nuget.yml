@@ -41,7 +41,7 @@ jobs:
       run: dotnet build "Bank/Bank.sln" --no-restore --configuration Release
 
     - name: End SonarCloud analysis
-      run:  dotnet sonarscanner end /d:sonar.login="$SONAR_TOKEN"
+      run:  dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
     - name: Pack NuGet package
       run: |

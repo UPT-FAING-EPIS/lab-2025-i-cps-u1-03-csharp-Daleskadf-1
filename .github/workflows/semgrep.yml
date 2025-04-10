@@ -19,19 +19,18 @@ jobs:
           pip install semgrep==1.56.0 # Instalar Semgrep
           pip install prospector2html  # Instalar Prospector
           sudo apt-get install jq  # Instalar jq para filtrar JSON
-
+      
       - name: Run Semgrep scan
         run: |
           semgrep scan --config='p/default' . --json --output semgrep.json --metrics=off --verbose
 
-      - name: Filter semgrep results (remove 'confidence' field)
+      - name: Filter semgrep results (remove items without 'confidence')
         run: |
-            # Eliminar el campo 'confidence' de cada resultado antes de crear el HTML
-            jq '.results |= map(del(.confidence))' semgrep.json > filtered_semgrep.json
+            jq 'del(.results[] | select(.confidence == null))' semgrep.json > filtered_semgrep.json
 
       - name: Generate HTML report with Prospector
         run: |
-          prospector-html --input filtered_semgrep.json --output index.html --filter semgrep
+          prospector-html --input semgrep.json --output index.html --filter semgrep
 
       - name: Publish HTML Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

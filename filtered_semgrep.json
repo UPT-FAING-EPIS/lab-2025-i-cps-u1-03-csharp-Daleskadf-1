@@ -148,26 +148,26 @@
           "end": {
             "col": 48,
             "line": 55,
-            "offset": 2078
+            "offset": 2083
           },
           "file": ".github/workflows/package_nuget.yml",
           "start": {
             "col": 26,
             "line": 55,
-            "offset": 2056
+            "offset": 2061
           }
         },
         {
           "end": {
             "col": 37,
             "line": 57,
-            "offset": 2078
+            "offset": 2083
           },
           "file": ".github/workflows/package_nuget.yml",
           "start": {
             "col": 15,
             "line": 57,
-            "offset": 2056
+            "offset": 2061
           }
         }
       ],
@@ -178,26 +178,26 @@
             "end": {
               "col": 48,
               "line": 55,
-              "offset": 2078
+              "offset": 2083
             },
             "path": ".github/workflows/package_nuget.yml",
             "start": {
               "col": 26,
               "line": 55,
-              "offset": 2056
+              "offset": 2061
             }
           },
           {
             "end": {
               "col": 37,
               "line": 57,
-              "offset": 2078
+              "offset": 2083
             },
             "path": ".github/workflows/package_nuget.yml",
             "start": {
               "col": 15,
               "line": 57,
-              "offset": 2056
+              "offset": 2061
             }
           }
         ]

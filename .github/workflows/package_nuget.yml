@@ -25,7 +25,8 @@ jobs:
 
     - name: Begin SonarCloud analysis
       run: |
-        dotnet-sonarscanner begin \
+        dotnet tool install --global dotnet-sonarscanner
+        dotnet sonarscanner begin \
           /k:"lab3cali_lab3calidad" \
           /o:"lab3cali" \
           /d:sonar.token="${{ secrets.SONAR_TOKEN }}" \
@@ -37,12 +38,9 @@ jobs:
 
     - name: Run tests with coverage
       run: dotnet test "Bank/Bank.sln" --collect:"XPlat Code Coverage;Format=opencover"
-      
+
     - name: Build solution
       run: dotnet build "Bank/Bank.sln" --no-restore --configuration Release
-
-    - name: End SonarCloud analysis
-      run:  dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
     - name: Pack NuGet package
       run: |

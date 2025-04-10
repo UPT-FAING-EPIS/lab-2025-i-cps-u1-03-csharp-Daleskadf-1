@@ -30,7 +30,7 @@ jobs:
           /o:"lab3cali" \
           /d:sonar.token="${{ secrets.SONAR_TOKEN }}" \
           /d:sonar.host.url="https://sonarcloud.io" \
-          /d:sonar.sources="Bank/Bank.WebApi, Bank/Bank.WebApi.Tests
+          /d:sonar.sources="Bank/Bank.WebApi, Bank/Bank.WebApi.Tests" \
           /d:sonar.cs.opencover.reportsPaths="**/coverage.opencover.xml" \
           /d:sonar.qualitygate.wait=true \
           /d:sonar.exclusions="**/Program.cs,**/code-test-results.html"

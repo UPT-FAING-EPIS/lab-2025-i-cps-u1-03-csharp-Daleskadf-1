@@ -7,7 +7,6 @@
     <InvariantGlobalization>true</InvariantGlobalization>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <Version>1.0.0</Version> 
-    <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
   <ItemGroup>

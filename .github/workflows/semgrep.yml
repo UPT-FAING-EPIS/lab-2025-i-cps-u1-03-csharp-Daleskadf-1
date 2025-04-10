@@ -25,7 +25,7 @@ jobs:
 
       - name: Generate HTML report with Prospector
         run: |
-          prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep  # Generar el reporte HTML
+          prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep
 
       - name: Publish HTML Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

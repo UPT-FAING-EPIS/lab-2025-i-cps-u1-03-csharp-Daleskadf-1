@@ -1,101 +1,18 @@
 {
   "errors": [
     {
-      "code": 3,
-      "level": "warn",
-      "message": "Syntax error at line Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py:47:\n `*` was unexpected",
-      "path": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
-      "spans": [
-        {
-          "end": {
-            "col": 42,
-            "line": 47,
-            "offset": 1
-          },
-          "file": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
-          "start": {
-            "col": 41,
-            "line": 47,
-            "offset": 0
-          }
-        },
-        {
-          "end": {
-            "col": 76,
-            "line": 47,
-            "offset": 1
-          },
-          "file": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
-          "start": {
-            "col": 75,
-            "line": 47,
-            "offset": 0
-          }
-        },
-        {
-          "end": {
-            "col": 73,
-            "line": 69,
-            "offset": 14
-          },
-          "file": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
-          "start": {
-            "col": 59,
-            "line": 69,
-            "offset": 0
-          }
-        }
-      ],
-      "type": [
-        "PartialParsing",
-        [
-          {
-            "end": {
-              "col": 42,
-              "line": 47,
-              "offset": 1
-            },
-            "path": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
-            "start": {
-              "col": 41,
-              "line": 47,
-              "offset": 0
-            }
-          },
-          {
-            "end": {
-              "col": 76,
-              "line": 47,
-              "offset": 1
-            },
-            "path": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
-            "start": {
-              "col": 75,
-              "line": 47,
-              "offset": 0
-            }
-          },
-          {
-            "end": {
-              "col": 73,
-              "line": 69,
-              "offset": 14
-            },
-            "path": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
-            "start": {
-              "col": 59,
-              "line": 69,
-              "offset": 0
-            }
-          }
-        ]
-      ]
-    },
-    {
       "code": 2,
       "level": "warn",
       "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py:\n ",
       "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/rich/_emoji_codes.py",
+      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
+      "type": "Timeout"
+    },
+    {
+      "code": 2,
+      "level": "warn",
+      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py:\n ",
+      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py",
       "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
       "type": "Timeout"
     },
@@ -206,18 +123,101 @@
     {
       "code": 2,
       "level": "warn",
-      "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py:\n ",
-      "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/_mapping.py",
-      "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
-      "type": "Timeout"
-    },
-    {
-      "code": 2,
-      "level": "warn",
       "message": "Timeout when running python.boto3.security.hardcoded-token.hardcoded-token on Bank/myenv/lib/python3.12/site-packages/pip/_vendor/idna/uts46data.py:\n ",
       "path": "Bank/myenv/lib/python3.12/site-packages/pip/_vendor/idna/uts46data.py",
       "rule_id": "python.boto3.security.hardcoded-token.hardcoded-token",
       "type": "Timeout"
+    },
+    {
+      "code": 3,
+      "level": "warn",
+      "message": "Syntax error at line Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py:47:\n `*` was unexpected",
+      "path": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
+      "spans": [
+        {
+          "end": {
+            "col": 42,
+            "line": 47,
+            "offset": 1
+          },
+          "file": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
+          "start": {
+            "col": 41,
+            "line": 47,
+            "offset": 0
+          }
+        },
+        {
+          "end": {
+            "col": 76,
+            "line": 47,
+            "offset": 1
+          },
+          "file": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
+          "start": {
+            "col": 75,
+            "line": 47,
+            "offset": 0
+          }
+        },
+        {
+          "end": {
+            "col": 73,
+            "line": 69,
+            "offset": 14
+          },
+          "file": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
+          "start": {
+            "col": 59,
+            "line": 69,
+            "offset": 0
+          }
+        }
+      ],
+      "type": [
+        "PartialParsing",
+        [
+          {
+            "end": {
+              "col": 42,
+              "line": 47,
+              "offset": 1
+            },
+            "path": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
+            "start": {
+              "col": 41,
+              "line": 47,
+              "offset": 0
+            }
+          },
+          {
+            "end": {
+              "col": 76,
+              "line": 47,
+              "offset": 1
+            },
+            "path": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
+            "start": {
+              "col": 75,
+              "line": 47,
+              "offset": 0
+            }
+          },
+          {
+            "end": {
+              "col": 73,
+              "line": 69,
+              "offset": 14
+            },
+            "path": "Bank/myenv/lib/python3.12/site-packages/pylint/config/argument.py",
+            "start": {
+              "col": 59,
+              "line": 69,
+              "offset": 0
+            }
+          }
+        ]
+      ]
     }
   ],
   "interfile_languages_used": [],

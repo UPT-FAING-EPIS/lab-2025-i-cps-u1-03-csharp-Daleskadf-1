@@ -63,4 +63,4 @@ jobs:
         tag: ${{ env.NAME }}
         name: "Release ${{ env.NAME }}"
         files: out/*.nupkg
-        token: ${{ secrets.GH_NUGET_TOKEN }}
+        token: ${{ secrets.GH_TOKEN }}

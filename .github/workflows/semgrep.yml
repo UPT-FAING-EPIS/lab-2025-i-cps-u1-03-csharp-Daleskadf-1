@@ -28,10 +28,10 @@ jobs:
         run: |
           jq '.results |= map(select(.extra.confidence != null))' semgrep.json > filtered_semgrep.json
           mv filtered_semgrep.json semgrep.json  # Reemplazar el archivo original
-          
+
       - name: Generate HTML report with Prospector
         run: |
-          prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep
+          prospector-html --input semgrep.json --output index.html --filter semgrep
 
       - name: Publish HTML Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
